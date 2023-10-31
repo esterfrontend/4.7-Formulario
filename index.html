@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <style>
+        div {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Contact Us Form Example</legend>
+            <div>
+                <label for="name">Name
+                    <abbr title="required" aria-label="required">*</abbr>
+                :</label>
+                <input type="text" name="Name" id="name" required>
+            </div>
+            <div>
+                <label for="phone">Phone number:</label>
+                <input type="tel" name="Phone number" id="phone">
+            </div>
+            <div>
+                <label for="email">Email address
+                    <abbr title="required" aria-label="required">*</abbr>
+                :</label>
+                <input type="email" name="Email" id="email" required>
+            </div>
+            <div>
+                <label for="comments">Comment
+                    <abbr title="required" aria-label="required">*</abbr>
+                :</label>
+                <textarea name="Comments" id="comments"></textarea>
+            </div>
+            <span>* - required fields</span>
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
